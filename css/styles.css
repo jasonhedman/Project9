@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar .dropdown.show .dropdown-menu, .navbar .dropdown .dropdown-menu {
+  height: auto;
+}
+
+.header-filter:before, .header-filter:after {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.badge-container { margin: 0 auto;}
+
+#badges li { display: inline;}
+
+#badges li img {
+  width: calc(11.75% - 2px);
+  margin:-15px 2px 0px 0px;
+}
+
+#badges {
+  padding: 1em;
+  text-align: left;
+}
+
+.contact {
+  align-items: center;
+}
+
+.badge-container h1 {
+  text-align:center;
+}
+
+#badges li img:hover {opacity:.7;}
+
+.btn-nav{
+  background: transparent;
+}
+
+.index-body {
+  background: #070809
+}
+
+.row.equal-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+  max-width: none;
+}
+.badge-container {
+  width:75%;
+  margin: 0 auto;
+}
+#badges li:nth-child(16n+9) {
+  margin-left:5.875%;
+}
+
+#skills::before {
+  display: block;
+  content: " ";
+  margin-top: -285px;
+  height: 285px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+section h2 {
+  position: relative;
+}
+
+section h2 span {
+  position:absolute;
+  top:-80px;
+}
+
+form {
+  padding: 1em;
+}
+
+.treehouse {
+  padding: 1em;
+}
+
+.projects .card {
+  transition: border .2s;
+}
+
+.projects .card:hover {
+  cursor: pointer;
+  border: 3px solid #f7c376;
+}
+
+.main {
+  background: transparent;
+}
+
+section {
+  background: white;
+  margin: 3em auto;
+}
+
+#myVideo {
+    position: fixed;
+    left: -30%;
+    top: 0;
+    height: 100%;
+    z-index: -2;
+}
+
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.9);
+  z-index: -1;
+}
+
+.video {
+  z-index: -1;
+}
+
+
+@media (min-width: 396px){
+  #badges li img {
+    margin:-9px 2px 0px 0px;
+  }
+
+@media (min-width: 576px){
+  #badges li img {
+    margin:-11px 2px 0px 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  #badges li img {
+    width: calc(9.5% - 2px);
+    margin:-11px 2px 0px 0px;
+  }
+
+  #badges li:nth-child(20n+11) {
+    margin-left:4.75%;
+  }
+
+  #badges li:nth-child(16n+9) {
+    margin-left:0;
+  }
+}
+
+@media(max-width: 768px){
+  .card-deck-wrapper {margin-right:0;margin-left:0;}
+
+  .card-deck.one,
+  .card-deck.two {
+	    display: block;
+	    width: 100%;
+	    margin-bottom: .75rem;
+	    table-layout: fixed;
+	    border-spacing: 1.25rem 0;
+	}
+
+  .card-deck.one .card,
+  .card-deck.two .card {
+	    display: block;
+	    margin-bottom: .75rem;
+	}
+
+}
+
+@media (min-width: 992px) {
+  #badges li img {
+    width: calc(11.75% - 2px);
+    margin:-8px 2px 0px 0px;
+  }
+
+  #badges li:nth-child(20n+11) {
+    margin-left:0;
+  }
+
+  #badges li:nth-child(16n+9) {
+    margin-left:5.875%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #badges li img {
+    margin:-10px 2px 0px 0px;
+  }
+}
