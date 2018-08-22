@@ -124,12 +124,20 @@ section {
   z-index: -1;
 }
 
+.contact-container {
+  flex-direction: column;
+}
+
 
 @media (min-width: 396px){
   #badges li img {
     margin:-9px 2px 0px 0px;
   }
 
+  .contact-container {
+    flex-direction: row;
+  }
+}
 @media (min-width: 576px){
   #badges li img {
     margin:-11px 2px 0px 0px;
