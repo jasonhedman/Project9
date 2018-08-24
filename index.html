@@ -406,23 +406,23 @@
     </section>
     <section class="p-4 rounded">
       <h2 class="text-center"><span id="contact"></span>Contact</h2>
-      <form>
+      <form action = "https://formspree.io/your@email.com" method = "POST">
         <div class="row">
           <div class="form-group bmd-form-group col-6">
             <label class="bmd-label-floating">First Name</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name = "firstName">
           </div>
           <div class="form-group bmd-form-group col-6">
             <label class="bmd-label-floating">Last Name</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name = "lastName">
           </div>
           <div class="form-group bmd-form-group col-12">
             <label class="bmd-label-floating">Email</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" name = "emailName">
           </div>
           <div class="form-group bmd-form-group col-12">
             <label class="bmd-label-floating" for="message">Message</label>
-            <textarea class="form-control" id="message" rows="3"></textarea>
+            <textarea class="form-control" id="message" rows="3" name = "message"></textarea>
           </div>
         </div>
         <button type="submit" class="btn btn-primary mx-auto d-block">Submit</button>
